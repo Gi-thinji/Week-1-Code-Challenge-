@@ -13,7 +13,7 @@ rl.question('Enter your speed: ', (speed) => {
   //The line above prompts the user to input their marks with the statement `Enter your speed:`.
 
   //The top level if else statement below checks if the speed is below 70. If so it output "Ok" to the consols
-    if (speed<70){
+    if (speed<=70){
         console.log("Ok")
     } else if(speed>70) {//If the speed is above 70,the demerits are calculated and shown on the console.
       demerits=Math.ceil((speed-70)/5)
